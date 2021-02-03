@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import autoBind from "auto-bind";
 import LogInfo from "../../models/LogEntry";
 
+//Class for log
 class LogEntryController{
 	constructor() {
 		autoBind(this);
